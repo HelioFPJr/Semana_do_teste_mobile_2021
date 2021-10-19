@@ -19,8 +19,7 @@ class TestSemanaMobile():
 
     def setup_method(self):
         self.driver = webdriver.Remote(
-            "https://oauth-heliofpjr-fc8e1:38ec434c-c5cc-40c9-9cec-b467ab8015d2@ondemand.us-west-1.saucelabs.com:443/wd/hub",
-            caps)
+            "Sua Url", caps)
 
 
     def teardown_method(self):
